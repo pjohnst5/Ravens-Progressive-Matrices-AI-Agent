@@ -1,0 +1,118 @@
+Ones affine got right but DPR didn't: 
+
+Basic B-4
+Basic C-7,12
+Basic D-2
+Challenge B-1,10,11
+Challenge C-6,10,11
+
+Acutal bonus
+Basic B-4
+Basic C-7
+Basic D-2
+Challenge B-1,10,11
+Challenge C-11?
+
+with similarity > 0.70 and best_composite_transformation.score > 0.86, window 10
+    b-4
+    d-2
+    challenge b-1(0.7),10(0.86),11
+
+
+Basic Problem B-04
+         similarity=0.995863
+         score=0.995242
+         affine_diff=0.000622
+                 transform pair=['A', 'C']
+                 transform=<function Identity_Flip at 0x04150730>
+                 affine selection=3
+         vote=3.999606
+         second_best_vote=3.999190
+         diff_vote=0.000416
+                 dpr selection=4
+                 dpr 2nd selection=6
+         affine
+
+Basic Problem C-07
+         similarity=0.994023
+         score=0.958576
+         affine_diff=0.035446
+                 transform pair=['B', 'H']
+                 transform=<function Identity_Flip at 0x04150730>
+                 affine selection=2
+         vote=19.968540
+         second_best_vote=14.957657
+         diff_vote=5.010883
+                 dpr selection=6
+                 dpr 2nd selection=1
+         affine
+
+Basic Problem D-02
+         similarity=0.957776
+         score=0.819036
+         affine_diff=0.138740
+                 transform pair=['A', 'E']
+                 transform=<function Identity_Flip at 0x04150730>
+                 affine selection=1
+         vote=11.998220
+         second_best_vote=11.998203
+         diff_vote=0.000017
+                 dpr selection=5
+                 dpr 2nd selection=3
+         affine
+
+Challenge Problem B-01
+         similarity=0.520716
+         score=0.697316
+         affine_diff=0.176600
+                 transform pair=['A', 'B']
+                 transform=<function Rotate_90 at 0x04150658>
+                 affine selection=6
+         vote=3.995677
+         second_best_vote=3.994389
+         diff_vote=0.001288
+                 dpr selection=4
+                 dpr 2nd selection=3
+         black
+
+Challenge Problem B-10
+         similarity=0.704211
+         score=0.259423
+         affine_diff=0.444788
+                 transform pair=['A', 'B']
+                 transform=<function Rotate_90 at 0x04150658>
+                 affine selection=4
+         vote=1.990389
+         second_best_vote=1.990312
+         diff_vote=0.000078
+                 dpr selection=2
+                 dpr 2nd selection=5
+         black
+
+Challenge Problem B-11
+         similarity=0.449696
+         score=0.974148
+         affine_diff=0.524452
+                 transform pair=['A', 'C']
+                 transform=<function Identity_Flip at 0x04150730>
+                 affine selection=5
+         vote=3.999013
+         second_best_vote=3.998895
+         diff_vote=0.000118
+                 dpr selection=4
+                 dpr 2nd selection=2
+         black
+
+Challenge Problem C-11
+         similarity=0.326623
+         score=0.329749
+         affine_diff=0.003126
+                 transform pair=['A', 'G']
+                 transform=<function Identity at 0x04140D60>
+                 affine selection=4
+         vote=4.934871
+         second_best_vote=4.932137
+         diff_vote=0.002734
+                 dpr selection=7
+                 dpr 2nd selection=4
+         black

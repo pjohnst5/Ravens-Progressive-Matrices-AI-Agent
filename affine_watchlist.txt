@@ -1,0 +1,4 @@
+affine watch list
+basic e 12
+challenge d-1,2,5,10
+challenge e-1,8
